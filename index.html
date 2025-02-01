@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Board - Kitsap Autism Events</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Community Board - Kitsap Autism Events</h1>
+        <button id="accessibility-btn">Accessibility Options</button>
+    </header>
+    
+    <main>
+        <section id="flyers">
+            <div class="flyer">Flyer 1 - Placeholder Event</div>
+            <div class="flyer">Flyer 2 - Placeholder Event</div>
+            <div class="flyer">Flyer 3 - Placeholder Event</div>
+        </section>
+    </main>
+    
+    <div id="accessibility-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Accessibility Settings</h2>
+            <label>Font Size:
+                <select id="font-size">
+                    <option value="small">Small</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </label>
+            <label>Contrast:
+                <select id="contrast">
+                    <option value="normal" selected>Normal</option>
+                    <option value="high">High Contrast</option>
+                </select>
+            </label>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
